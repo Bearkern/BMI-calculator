@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BMI Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo">
+				<h1 class="bmiCalculator">
+					<a href="#">BMI caculator</a>
+				</h1>
+			</div>
+			
+			<div class="formField">
+				<ul>
+					<li>
+						<p>身高 cm</p>
+						<input type="text" id="heightId" placeholder="請輸入身高">
+					</li>
+
+					<li>
+						<p>體重 kg</p>
+						<input type="text" id="weightId" placeholder="請輸入體重">
+					</li>
+				</ul>
+
+				<button id="seeResultId">看結果</button>
+
+				<button class="resultBtn">
+					<span class="resultValue"></span>
+					<span class="resultText">BMI</span> 
+					<i class="fa fa-refresh fa-spin fa-2x fa-fw refresh"></i>
+				</button>
+
+				<p class="statusText"></p>
+				
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="measureRecord">
+				<h2>BMI 紀錄</h2>
+				<ul>
+				</ul>
+				<div class="clearfix"></div> 
+			</div>
+		</div>
+
+		<div class="footer">
+		</div>
+	</div>
+
+	<script src="js/all.js"></script>
+</body>
+</html>
